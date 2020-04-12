@@ -1,0 +1,138 @@
+<!DOCTYPE css>
+.controller.custom{
+	background: url(https://i.imgur.com/RJA1fbb.png);
+	height: 726px;
+	width: 250px;
+}
+.custom.disconnected {
+	background: url(https://i.imgur.com/UVw7M3p.png);
+}
+.custom.disconnected div {
+	display: none;
+}
+/* Trigger Buttons */
+.custom .triggers{
+ 	width: 32px;
+    	height: 90px;
+    	position: absolute;
+    	left: 99px;
+}
+.custom .trigger{
+	width: 32px;
+    	height: 45px;
+    	background: url(https://i.imgur.com/feB7k1W.png);
+    	opacity: 0;
+}
+.custom .trigger.left{
+	float: left;
+}
+.custom .trigger.right{
+	float: right;
+}
+
+/* Start and Select Buttons */
+.custom .arrows{
+	position: absolute;
+	width: 205px;
+	height: 19px;
+	top: 250px;
+	left: 291px:
+}
+.custom .back, .custom .start{
+	background: url(https://i.imgur.com/bCEUlkG.png);
+	width: 28px;
+	height: 29px;
+}
+.custom .back.pressed, .custom .start.pressed{
+	background-position-y: -28px;
+	margin-top: 2px;
+}
+.custom .back{
+	float: left;
+	width: 28px;
+}
+.custom .start{
+	float: right;
+	width: 28px;
+	background-position: 37px 0:
+}
+/* Face Buttons */
+.custom .abxy{
+	position: absolute;
+	width: 204px;
+	height: 205px;
+	top: 156px;
+	left: 538px;
+}
+.custom .button{
+	position: absolute;
+	width: 34px;
+	height: 48px;
+	background: url(https://i.imgur.com/uNOq5z4.png);
+}
+.custom .button.pressed{
+	background-position-y: -64px;
+	margin-top: 5px;
+}
+.custom .a{
+	background-position: 62px 0;
+	top: 142px;
+	left: 71px;
+}
+.custom .b{
+	background-position: 125px 0;
+    	top: 71px;
+        right: 0px;
+}
+.custom .x{
+	background-position: 0 0;
+    	top: 71px;
+}
+.custom .y{
+	background-position: -63px 0;
+    	left: 71px;
+}
+/* Dpad Positioning and Sizing */
+.custom .dpad{
+	position: absolute;
+    	width: 140px;
+    	height: 132px;
+    	top: 192px;
+    	left: 74px;
+}
+.custom .face{
+	background: url(https://i.imgur.com/8G8pHIr.png);
+    	position: absolute;
+}
+.custom .face.up, .custom .face.down{
+	width: 38px;
+    	height: 52px;
+}
+.custom .face.left, .custom .face.right{
+	width: 38px;
+    	height: 52px;
+}
+.custom .face.up{
+	left: 50px;
+    	top: 0;
+    	background-position: 92px 0px;
+}
+.custom .face.down{
+	left: 50px;
+    	top: 79px;
+    	background-position: 131px 0;
+}
+.custom .face.left{
+	top: 47px;
+    	left: 0;
+    	background-position: 0px 0;
+}
+.custom .face.right{
+	top: 47px;
+    	right: 0px;
+    	background-position: 53px 0;
+}
+.custom .face.pressed{
+	margin-top: 5px;
+    	background-position-y: 52px;
+}
