@@ -19,11 +19,11 @@
 .custom .trigger{
 	width: 32px;
     	height: 45px;
-    	background: url(https://i.imgur.com/feB7k1W.png);
+    	background: url();
     	opacity: 0;
 }
-.custom .trigger.left{
-	float: left;
+.custom .trigger-button.left.pressed{
+	background: url(https://i.imgur.com/bCEUlkG.png);
 }
 .custom .trigger.right{
 	float: right;
