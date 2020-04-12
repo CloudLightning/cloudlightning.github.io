@@ -68,20 +68,15 @@
 	width: 34px;
 	height: 48px;
 }
-.custom .button.pressed{
-	background-position-y: -64px;
-	margin-top: 5px;
+.custom .button.a.pressed{
+	top: -56px;
+	left: 14px;
+	background: url(https://i.imgur.com/8G8pHIr.png);
 }
-.custom .a{
-	background-position: 62px 0;
-	top: 142px;
-	left: 71px;
-	background: url(https://i.imgur.com/uNOq5z4.png);
-}
-.custom .b{
-	background-position: 125px 0;
-    	top: 71px;
-        right: 0px;
+.custom .button.b.pressed{
+    	top: -56px;
+        right: 195px;
+        background: url(https://i.imgur.com/G11yJlS.png);
 }
 .custom .x{
 	background-position: 0 0;
@@ -93,12 +88,8 @@
 }
 /* Dpad Positioning and Sizing */
 .custom .dpad{
-	position: absolute;
-    	width: 140px;
-    	height: 132px;
-    	top: 192px;
-    	left: 74px;
-}
+
+}    
 .custom .face{
 	background: url(https://i.imgur.com/8G8pHIr.png);
     	position: absolute;
@@ -135,3 +126,4 @@
 	margin-top: 5px;
     	background-position-y: 52px;
 }
+
