@@ -90,39 +90,38 @@
 
 }    
 .custom .face{
-	background: url(https://i.imgur.com/8G8pHIr.png);
     	position: absolute;
+    	width: 204px;
+	    height: 205px;
+	    top: 156px;
+	    left: 538px;
 }
 .custom .face.up, .custom .face.down{
-	width: 38px;
+	    width: 38px;
     	height: 52px;
 }
 .custom .face.left, .custom .face.right{
-	width: 38px;
+	    width: 38px;
     	height: 52px;
 }
-.custom .face.up{
-	left: 50px;
+.custom .face.up.pressed{
+	    left: 50px;
     	top: 0;
-    	background-position: 92px 0px;
+    	background: url(https://i.imgur.com/8G8pHIr.png);
 }
-.custom .face.down{
-	left: 50px;
-    	top: 79px;
-    	background-position: 131px 0;
+.custom .face.down.pressed{
+        left: 50px;
+    	top: 0;
+    	background: url(https://i.imgur.com/8G8pHIr.png);
 }
-.custom .face.left{
-	top: 47px;
-    	left: 0;
-    	background-position: 0px 0;
+.custom .face.left.pressed{
+        left: 50px;
+    	top: 0;
+    	background: url(https://i.imgur.com/8G8pHIr.png);
 }
-.custom .face.right{
-	top: 47px;
-    	right: 0px;
-    	background-position: 53px 0;
-}
-.custom .face.pressed{
-	margin-top: 5px;
-    	background-position-y: 52px;
+.custom .face.right.pressed{
+        left: 50px;
+    	top: 0;
+    	background: url(https://i.imgur.com/8G8pHIr.png);
 }
 
