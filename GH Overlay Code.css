@@ -38,22 +38,19 @@
 	left: 291px;
 }
 .custom .back, .custom .start{
-	background: url(https://i.imgur.com/bCEUlkG.png);
+	position: absolute;
 	width: 28px;
 	height: 29px;
 }
-.custom .back.pressed, .custom .start.pressed{
-	background-position-y: -28px;
-	margin-top: 2px;
+.custom .back.pressed{
+	top: -117px;
+	left: -241px;
+	background: url(https://i.imgur.com/yBP8UnC.png);
 }
-.custom .back{
-	float: left;
-	width: 28px;
-}
-.custom .start{
-	float: right;
-	width: 28px;
-	background-position: 37px 0;
+.custom .start.pressed{
+    top: -96px;
+	left: -270px;
+    background: url(https://i.imgur.com/bCEUlkG.png);
 }
 /* Face Buttons */
 .custom .abxy{
@@ -70,21 +67,23 @@
 }
 .custom .button.a.pressed{
 	top: -56px;
-	left: 14px;
-	background: url(https://i.imgur.com/8G8pHIr.png);
+	left: -66px;
+	background: url(https://i.imgur.com/gQiDRBV.png);
 }
 .custom .button.b.pressed{
     	top: -56px;
         right: 195px;
         background: url(https://i.imgur.com/G11yJlS.png);
 }
-.custom .x{
-	background-position: 0 0;
-    	top: 71px;
+.custom .button.x.pressed{
+    	top: -56px;
+        left: -106px;
+        background: url(https://i.imgur.com/cFym3Bt.png);
 }
-.custom .y{
-	background-position: -63px 0;
-    	left: 71px;
+.custom .button.y.pressed{
+        top: -56px;
+    	left: -147px;
+    	background: url(https://i.imgur.com/uNOq5z4.png);
 }
 /* Dpad Positioning and Sizing */
 .custom .dpad{
